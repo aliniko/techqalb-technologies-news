@@ -1,2 +1,2 @@
-# funInSamos
-having fun by coding daily or ocationaly 
+# techqalb
+a Technology News Website 
