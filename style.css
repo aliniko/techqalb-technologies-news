@@ -1,0 +1,73 @@
+/* 
+ont-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --heading: 'Montserrat', sans-sarif;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #fff;
+}
+
+/* global styling */
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+hr{
+    width: 96vw;
+    margin: 0 auto;
+}
+
+.top-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: #252525;
+    color: #fff;
+    padding: 20px 30px;
+}
+
+.top-head .fas{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/**********Js related styling***********/
+.nav-bar{
+    background: #333;
+    /* 
+    height: 0;
+    overflow: hidden;
+    */
+}
+
+.show-nav{
+    height: auto;
+}
+
+
+
+
+/* ************************ */
