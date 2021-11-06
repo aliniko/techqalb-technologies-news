@@ -57,10 +57,10 @@ hr{
 /**********Js related styling***********/
 .nav-bar{
     background: #333;
-    /* 
+    
     height: 0;
     overflow: hidden;
-    */
+   
 }
 
 .show-nav{
@@ -87,4 +87,18 @@ hr{
 
 .nav-bar ul li a:hover {
     text-decoration: underline;
+}
+
+/* social icons */
+
+.social-icons {
+    display: none;
+}
+
+/* small devices */
+
+@media(min-width: 800px){
+    .ham-btn, .times-btn{
+        display: none !important;
+    }
 }
