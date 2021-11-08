@@ -130,4 +130,26 @@ hr{
     .nav-bar nav ul li:hover{
         background: none;
     }
+
+    /* social icons */
+    .social-icons{
+        flex: 0 1 30%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .social-icons .fab{
+        color: #fff;
+        font-size: 2rem;     
+    }
+
+    .social-icons ul{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .social-icons ul li{
+        padding: 20px;
+    }
 }
